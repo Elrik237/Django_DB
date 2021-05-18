@@ -35,7 +35,11 @@ SECRET_KEY = get_env_value('SECRET_KEY_DJANGO_DB')
 # SECURITY WARNING: don't run with debug turned on in production!
 DEBUG = True
 
-ALLOWED_HOSTS = []
+ALLOWED_HOSTS = [
+    '127.0.0.1',
+    '127.0.0.1:8000',
+    '89.223.90.206:8000'
+]
 
 
 # Application definition
